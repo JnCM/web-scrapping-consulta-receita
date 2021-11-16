@@ -52,10 +52,9 @@ try:
     cropped_image = image[loc['y']:loc['y']+desloc_y, loc['x']:loc['x']+desloc_x]
     cv.imwrite('captcha.png', cropped_image)
     # Exibindo o captcha automaticamente
-    img_captcha = cv.imread('captcha.png')
+    img_captcha = plt.imread('captcha.png')
     plt.imshow(img_captcha)
-    plt.xticks([])
-    plt.yticks([])
+    plt.axis('off')
     plt.show(block=False)
 
     # Lendo do terminal o CNPJ e o captcha digitados
