@@ -66,3 +66,28 @@ Com os dados inseridos corretamente, a consulta exibirá um JSON de retorno:
     "data_situacao_cadastral": "11/01/2008"
 }
 ```
+
+## Consulta de CPF - Exemplo
+Na pasta do repositório, execute o comando:
+```bash
+python cpf/consulta_cpf.py
+```
+
+Digite os campos necessários:
+```bash
+Digite o CPF (somente números): 12345678901
+Digite a data de nascimento (DD/MM/AAAA): 25/12/2000
+Digite os caracteres da imagem exibida: 9XETCm
+```
+
+Com os dados inseridos corretamente, a consulta exibirá um JSON de retorno:
+```json
+{
+    "cpf": "123.456.789-01",
+    "nome": "FULANO BELTRANO CICLANO",
+    "data_nascimento": "25/12/2000",
+    "situacao_cadastral": "REGULAR",
+    "data_inscricao": "12/04/2006",
+    "digito_verificador": "00"
+}
+```
