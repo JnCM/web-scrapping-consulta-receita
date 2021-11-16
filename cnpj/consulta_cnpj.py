@@ -4,7 +4,7 @@ ATENÇÃO(!): Este código utiliza como navegador o Microsoft Edge, para outros 
 '''
 
 # Importação dos módulos necessários para a consulta
-from selenium import webdriver # Necessário para nicializar o browser
+from selenium import webdriver # Necessário para inicializar o browser
 from selenium.webdriver.edge.service import Service # Mudar "edge" para o navegador em uso
 from selenium.webdriver.edge.options import Options # Mudar "edge" para o navegador em uso
 # Exceção quando a página exibe um alerta
