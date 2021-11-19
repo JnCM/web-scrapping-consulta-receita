@@ -1,4 +1,4 @@
-# Consulta de CPF e CNPJ na Receita Federal com Web-Scrapping
+# Consulta de CPF e CNPJ na Receita Federal com Web-Scraping
 Repositório contendo scripts Python que realizam a consulta de CPF e CNPJ diretamente no site da Receita Federal.
 
 ## Requerimentos
